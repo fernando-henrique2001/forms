@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      #1b1b1b,
+      #1b1b1b 40%,
+      transparent 40%,
+      transparent
+    ),
+    url(./assets/IMG_8473.jpg) right repeat;
+  /* background-image: url(./assets/IMG_8473.jpg) center repeat-x; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  width: 60%;
+  height: 100%;
+  flex-shrink: 1;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.form {
+  position: absolute;
+  top: center;
+  margin-right: 40%;
+}
+
+.logo {
+  height: 100px;
+  width: 40%;
+}

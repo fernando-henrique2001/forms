@@ -1,0 +1,55 @@
+.container {
+  width: 400px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+  z-index: 999;
+  gap: 20px;
+}
+
+.content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 20px;
+  width: 300px;
+}
+
+.ageOffice {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 20px;
+}
+
+.action {
+  width: 150px;
+  height: 40px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid #d3fa3a;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.action:hover {
+  background-color: black;
+}
+
+.message {
+  position: relative;
+  transition: all 0.3s ease-out;
+  font-size: 15px;
+}
+
+.action:hover > .container {
+  bottom: 10px;
+}
