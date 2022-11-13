@@ -42,3 +42,33 @@
   height: 100px;
   width: 40%;
 }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 80%;
+}
+
+.title > h1 {
+  font-size: 40px;
+  color: #d3fa3a;
+  margin-left: 50px;
+  font-weight: 50;
+}
+
+.title > h2 {
+  font-size: 100px;
+  color: #d3fa3a;
+  margin-left: 46px;
+  font-weight: 400;
+  line-height: 0.7;
+  width: auto;
+}
+
+.title > h3 {
+  font-size: 30px;
+  color: #d3fa3a;
+  margin-left: 300px;
+  font-weight: 50;
+}
